@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-         pageEncoding="ISO-8859-1" isELIgnored="false"%>
-<%@ taglib prefix="s" uri="/struts-tags"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+         pageEncoding="ISO-8859-1" isELIgnored="false" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -43,12 +43,16 @@
         <td colspan="6" align="right">Sum</td>
         <td>${total }</td>
     </tr>
-
     <tr>
-        <td colspan="6" align="right">My salary is:</td>
-        <c:if test = "${total} >= 5000.0">
-        <td>${total*70/100}</td>
-        </c:if>
+        <td colspan="6" align="right">Salary</td>
+        <td><c:choose>
+            <c:when test="${total < 5000}">
+                ${total }
+            </c:when>
+            <c:otherwise>
+                ${total *0.7}
+            </c:otherwise>
+        </c:choose></td>
     </tr>
 </table>
 <br>
