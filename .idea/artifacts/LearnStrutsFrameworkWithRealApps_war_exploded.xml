@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LearnStrutsFrameworkWithRealApps:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/LearnStrutsFrameworkWithRealApps_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="LearnStrutsFrameworkWithRealApps/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LearnStrutsFrameworkWithRealApps" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.3" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
+          <element id="library" level="project" name="Maven: ognl:ognl:3.1.15" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.6" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.10.0" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-convention-plugin:2.5.17" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-core:2.5.17" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.26-incubating" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-commons:5.2" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-tree:5.2" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.2" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
